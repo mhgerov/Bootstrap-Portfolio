@@ -3,49 +3,72 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Michael Gerov Portfolio Site</title>
-	<link rel="stylesheet" href="assets/css/reset.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
-	<header id="masthead">
-		<div class="container">
-			<h1 id="logo">Michael Gerov</h1>
-			<nav>
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
-			</nav>
-		</div>
-	</header>
-	<main id="main-container" class="container">
-		<div class="main-section">
-			<h1>Portfolio</h1>
-			<div class="work">
-				<img src="assets/images/cat.jpg" alt="">
-				<h3>Cat Noises App</h3>
-			</div>
-			<div class="work">
-				<img src="assets/images/cat2.jpg" alt="">
-				<h3>Cat Breed Database</h3>
-			</div>
-			<div class="work">
-				<img src="assets/images/cat3.jpg" alt="">
-				<h3>"Does Your Cat Love You?" Quiz</h3>
-			</div>
-			<div class="work">
-				<img src="assets/images/cat4.jpg" alt="">
-				<h3>Cat Sitter Finder</h3>
-			</div>
-			<div class="work">
-				<img src="assets/images/cat5.jpg" alt="">
-				<h3>Just Pictures of Cats</h3>
+	<nav class="navbar navbar-default" role="navigation">
+	  <!-- Brand and toggle get grouped for better mobile display -->
+	  <div class="navbar-header">
+		<a class="navbar-brand" href="#">Michael Gerov</a>
+	  </div>
+	  <!-- Collect the nav links, forms, and other content for toggling -->
+		<ul class="nav navbar-nav navbar-right">
+		  <li><a href="index.html">About</a></li>
+		  <li><a href="portfolio.html">Portfolio</a></li>
+		  <li><a href="contact.html">Contact</a></li>
+		</ul>
+	  </div><!-- /.navbar-collapse -->
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="page-header">Portfolio</h1>
 			</div>
 		</div>
-	</main>
-	<footer>
-		<p>
-			Copyright &copy;
-		</p>
-	</footer>
+		<div class="row">
+  			<div class="col-sm-4">
+    			<div class="thumbnail">
+      				<img src="assets/images/cat.jpg" alt="...">
+      				<div class="caption">
+        				<h3>Cat Noises App</h3>
+      				</div>
+    			</div>
+			</div>
+			<div class="col-sm-4">
+    			<div class="thumbnail">
+      				<img src="assets/images/cat2.jpg" alt="...">
+      				<div class="caption">
+        				<h3>Cat Breed Database</h3>
+      				</div>
+    			</div>
+  			</div>
+			<div class="col-sm-4">
+    			<div class="thumbnail">
+      				<img src="assets/images/cat3.jpg" alt="...">
+      				<div class="caption">
+        				<h3>"Does Your Cat Love You?" Quiz</h3>
+      				</div>
+    			</div>
+  			</div>
+		</div>
+		<div class="row">
+  			<div class="col-sm-4">
+    			<div class="thumbnail">
+      				<img src="assets/images/cat4.jpg" alt="...">
+      				<div class="caption">
+        				<h3>Cat Sitter Finder</h3>
+      				</div>
+    			</div>
+			</div>
+			<div class="col-sm-4">
+    			<div class="thumbnail">
+      				<img src="assets/images/cat5.jpg" alt="...">
+      				<div class="caption">
+        				<h3>Just Pictures of Cats</h3>
+      				</div>
+    			</div>
+  			</div>
+		</div>
+	</div>
 </body>
 </html>
